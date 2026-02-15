@@ -2,7 +2,7 @@
 
 **Live football scores and league tables** for the main English leagues and cups.
 
-👉 **Open the site:** [https://06benste.github.io/simplescores2/](https://06benste.github.io/simplescores2/)
+👉 **Open the site:** [https://06benste.github.io/simplescores/](https://06benste.github.io/simplescores/)
 
 ---
 
@@ -21,3 +21,4 @@
 - **Daily:** A full refresh runs once per day in the early hours (UTC) so the schedule and pages are ready for the next day.
 
 So on days with fixtures you get updates every 5 minutes during the match window; on other days the site may not change until the next daily run.
+
