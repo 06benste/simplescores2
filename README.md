@@ -7,6 +7,7 @@
 ---
 
 ## But why is this needed?
+
 When I was attending home matches at Newcastle United's St James Park thgere were significant signal bottlenecking with 52000 people all trying to access their phones. Simple webpages would ocassioanlly load however more complex sites (such as sports scores sites) would not load.
 Hence this site. With all the processing completed serverside, all the phone needs to do is load a very small simple HTML file (scores circa 4kb, tables circa 5kb) with no JS, CSS etc.
 Why not update every minute or more though? While the scores and tables HTML files are hosted on github pages, the script and backend to create them actually run locally on my Home Assistant through a custom integration I have created. The PY scripts here scrape various sports scores and tables sources, create the scores and tables HTML pages and push these to GITHUB. Each time this happens a commit is made and github actions re-deploy the pages site. Every minute or more would be extemely intensive on both systems (and actually would not complete one run before the next starts, hence the 5 minute update interval)
